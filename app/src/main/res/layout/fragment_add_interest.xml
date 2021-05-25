@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddInterestFragment"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_list_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@color/toggleDark"
+        >
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/primaryTextColor"
+        android:layout_margin="16dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add_interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/notify_chip_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Please select atleast one"
+        android:textSize="@dimen/default_input_text_size"
+        android:padding="16dp"
+        android:textColor="@color/primaryTextColor"
+        />
+
+    <ListView
+        android:id="@+id/chip_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        />
+
+</LinearLayout>

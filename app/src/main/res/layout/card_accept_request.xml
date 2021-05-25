@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    app:cardBackgroundColor="@color/primaryTextColor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/card_request_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vishal Singh"
+            android:textSize="@dimen/default_input_text_size"
+            style="@style/Theme.MaterialComponents"
+            android:textColor="@color/white"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/accept_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:layout_below="@id/card_request_user_name"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/decline_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decline"
+            android:layout_below="@id/card_request_user_name"
+            android:layout_toEndOf="@id/accept_request"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

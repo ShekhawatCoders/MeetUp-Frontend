@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightWhite">#60ffffff</color>
+    <color name="toggleDark">#ffffff</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="textColor">#ffffff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+    <color name="bgUser">#B6B6B6</color>
+    <color name="bgFriend">#3E3E3E</color>
+    <color name="sameDark">#000000</color>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.meetup.ui.login.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/login_to_showFriendFragment"
+            app:destination="@id/showFriendFragment" />
+        <action
+            android:id="@+id/login_to_addInterestFragment"
+            app:destination="@id/addInterestFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.meetup.ui.login.fragment.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/splash_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/splash_to_addInterestFragment"
+            app:destination="@id/addInterestFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showFriendFragment"
+        android:name="com.example.meetup.ui.main.fragment.ShowFriendFragment"
+        android:label="fragment_show_friend"
+        tools:layout="@layout/fragment_show_friend" />
+    <fragment
+        android:id="@+id/addInterestFragment"
+        android:name="com.example.meetup.ui.login.fragment.AddInterestFragment"
+        android:label="fragment_add_interest"
+        tools:layout="@layout/fragment_add_interest" >
+        <action
+            android:id="@+id/addInterest_to_showFriendFragment"
+            app:destination="@id/showFriendFragment" />
+    </fragment>
+
+</navigation>

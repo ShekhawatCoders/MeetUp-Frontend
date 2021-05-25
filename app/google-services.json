@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "774243432994",
+    "firebase_url": "https://teachtous.firebaseio.com",
+    "project_id": "teachtous",
+    "storage_bucket": "teachtous.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774243432994:android:08f8d9b7e01e284de8a87b",
+        "android_client_info": {
+          "package_name": "com.example.meetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774243432994-36b5n2n7sdfcd3tjs2u0fmjp4ggvbd3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVc-YWJn2W-7JS5q7jQ8b2O3ytxW5kzNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774243432994-36b5n2n7sdfcd3tjs2u0fmjp4ggvbd3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774243432994:android:8bc19d2696033554e8a87b",
+        "android_client_info": {
+          "package_name": "com.lifetimelearner.fteach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774243432994-36b5n2n7sdfcd3tjs2u0fmjp4ggvbd3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVc-YWJn2W-7JS5q7jQ8b2O3ytxW5kzNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774243432994-36b5n2n7sdfcd3tjs2u0fmjp4ggvbd3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774243432994:android:e6cee6493e7eff08e8a87b",
+        "android_client_info": {
+          "package_name": "com.lifetimelearner.jokes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774243432994-36b5n2n7sdfcd3tjs2u0fmjp4ggvbd3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVc-YWJn2W-7JS5q7jQ8b2O3ytxW5kzNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774243432994-36b5n2n7sdfcd3tjs2u0fmjp4ggvbd3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chat.fragment.ChatFragment"
+    xmlns:chatview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" >
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/chat_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        chatview:title="@string/friend"
+        android:background="@color/primaryTextColor"
+        chatview:menu="@menu/chat_menu"
+        chatview:navigationIcon="@drawable/arrow_back"
+        chatview:navigationIconTint="@color/toggleDark"
+        />
+
+    <co.intentservice.chatui.ChatView
+        android:id="@+id/chat_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        chatview:inputUseEditorAction="true"
+        chatview:bubbleBackgroundRcv="@color/bgFriend"
+        chatview:bubbleBackgroundSend="@color/bgUser"
+        chatview:bubbleElevation="elevated"/>
+
+</LinearLayout>
+
+    <!--
+        chatview:backgroundColor=""
+        chatview:inputBackgroundColor=""
+        chatview:inputTextAppearance=""
+        chatview:inputTextSize=""
+        chatview:inputTextColor=""
+        chatview:inputHint=""
+        chatview:inputHintColor=""
+        chatview:sendBtnIcon="@drawable/send_btn"
+        chatview:sendBtnIconTint="@color/primaryTextColor"
+        chatview:sendBtnBackgroundTint=""
+    -->
